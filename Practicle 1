@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>silver oak University</h1>
+<p>located in ahmedabad</p>
+<style>
+  tr,td{
+  font-family:aerial;
+  border-collapse:collapse;
+  width:100%;
+  }
+  
+  th,tr,td{
+  border:2px solidblack;
+  text-align:center;
+  padding:8px;
+  }
+  
+  {tr:nth-child(even)
+  background-color:yellow;
+  }
+  </style>
+  </head>
+  
+  <body>
+  <h5>college of computer application</h5>
+  <p>           </p>
+  <table>
+  <caption>list of students</caption>
+  
+  <tr>
+  <th>firstname</th>
+  <th>lastname</th>
+  <th>age</th>
+  </tr>
+  
+  <tr>
+  <td>prem</td>
+  <td>vaniya</td>
+  <td>18</td>
+  </tr>
+  
+  <tr>
+  <td>shruti</td>
+  <td>nagar</td>
+  <td>18</td>
+  </tr>
+  
+  <tr>
+  <td>isha</td>
+  <td>kuhikar</td>
+  <td>18</td>
+  </tr>
+  </table>
+  </body>
+  </html>
