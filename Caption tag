@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    table{
+      font-family: ariel;
+      border-collapse: collapse;
+      width:100%;
+    }
+    td,th{
+      border:1px solid black;
+      text-align: left;
+      padding: 8px;
+    }
+    tr:nthchild(even){
+      background-color: skyblue;
+    }
+    
+  </style>
+  <h1><b>silver oak University </b></h1>
+  <h1>ADMISSION</h1>
+</head>
+<body>
+  <h1>html table</h1>
+  <h2>IMSCIT-A</h2>
+  <p>hi..my name is prem vaniya</p>
+  <h1>the caption element</h1>
+  <table>
+    <caption>student details</caption>
+    <tr>
+      <th>firstname</th>
+      <th>lastname</th>
+      <th>age</th>
+    </tr>
+    <tr>
+      <td>prem</td>
+      <td>vaniya</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>shruti</td>
+      <td>nagar</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>manthan</td>
+      <td>mehta</td>
+      <td>21</td>
+    </tr>
+  </table>
+</body>
+</html>
